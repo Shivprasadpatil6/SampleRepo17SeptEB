@@ -36,7 +36,7 @@ public class TestBase {
 	@BeforeTest
 	public void start()
 	{
-		logger = Logger.getLogger("DalalStreet Automation Framwork");
+		logger = Logger.getLogger("DS Automation Framwork");
 		PropertyConfigurator.configure("Log4jfile.properties");
 		logger.info("Framework Execution started");
 		
